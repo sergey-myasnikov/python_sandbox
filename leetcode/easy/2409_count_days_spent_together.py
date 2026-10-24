@@ -61,6 +61,5 @@ def my_count_days_together(arrive_alice: str, leave_alice: str, arrive_bob: str,
     return max(0, min(get_abs_day(leave_alice), get_abs_day(leave_bob)) - max(get_abs_day(arrive_alice), get_abs_day(arrive_bob)) + 1)
 
 
-
 if __name__ == "__main__":
     doctest.testmod()
